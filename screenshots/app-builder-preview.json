@@ -1,0 +1,39 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Nimbus",
+      "hasCanvas": true,
+      "bodyTextLen": 3917,
+      "bodyTextHash": "eb99cc69335da80f5852477caa31f926ddac95eed7ce3ced5c729b7894fa816c",
+      "bodyTextPrefix": "Nimbus AI NOWCASTING · TEAM CLOUDNINE Overview Live Map Citizen ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Nimbus",
+      "hasCanvas": true,
+      "bodyTextLen": 3817,
+      "bodyTextHash": "54b49db46ca975523eab128f84812030be6ae152b4d06d6fc5ddf808c9ea28ac",
+      "bodyTextPrefix": "Nimbus Login TEAM CLOUDNINE · SRM UNIVERSITY AP · SIH Street-lev",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [
+    "BRAND WARNING: this looks like a game/canvas app but src/lib/og/site.json is missing \"type\": \"x:game\". X uses og:type=x:game to present the unfurl as a game card — set it in /workspace/src/lib/og/site.json per /workspace/.grok/skills/og/SKILL.md. Do not invent x:type or overload twitter:card as the game signal.",
+    "BRAND WARNING: this looks like a game/canvas app but /workspace/public/x-banner.jpg is missing. Games need a 50:11 X feed card (1200×264 JPEG) at public/x-banner.jpg — open /workspace/.grok/skills/og/SKILL.md and finish the brand-asset pass."
+  ],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

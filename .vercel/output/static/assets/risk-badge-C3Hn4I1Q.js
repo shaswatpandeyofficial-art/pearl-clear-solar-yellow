@@ -1,0 +1,1 @@
+import{D as e}from"./app-shell-BWuFFLWY.js";import{u as t}from"./index-ZRtIxct7.js";import{n}from"./use-nowcast-DkP3Ex09.js";var r=t(),i={low:`ok`,moderate:`moderate`,high:`warn`,severe:`danger`};function a({dbz:t,vuln:a=.5,level:o}){let s=o??e(t??0,a);return(0,r.jsx)(n,{variant:i[s],children:s})}export{a as t};

@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/console",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Nimbus",
+      "hasCanvas": false,
+      "bodyTextLen": 828,
+      "bodyTextHash": "d941bbf9036dd148d8f2742624d129e9a6689e5400501d58f5fd086caa6b8267",
+      "bodyTextPrefix": "Nimbus AI NOWCASTING · TEAM CLOUDNINE Overview Live Map Citizen ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/console.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Nimbus",
+      "hasCanvas": false,
+      "bodyTextLen": 728,
+      "bodyTextHash": "62c74fc47f57eac331249445eb9cc7fcca53e4b367bf7aae89e2eeedb2e98e9e",
+      "bodyTextPrefix": "Nimbus Login COMMAND CENTER Authority dashboard Who was notified",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/console-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/console.json"
+}

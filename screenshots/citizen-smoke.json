@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8080/citizen",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Nimbus",
+      "hasCanvas": true,
+      "bodyTextLen": 657,
+      "bodyTextHash": "68935f37dfc6051d341bf02145f55a774d797a462edc340ad11d857ee9e3d712",
+      "bodyTextPrefix": "Nimbus /CLOUDNINE Problem Solution Architecture Impact Team Citi",
+      "horizontalOverflow": false,
+      "consoleErrors": [
+        "A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:\n\n- A server/client branch `if (typeof window !== 'undefined')`.\n- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.\n- Date formatting in a user's locale which doesn't match the server.\n- External changing data without sending a snapshot of it along with the HTML.\n- Invalid HTML tag nesting.\n\nIt can also happen if the client has a browser extension installed which messes with the HTML before React loaded.\n\n%s%s https://react.dev/link/hydration-mismatch \n\n  ...\n    <MatchImpl routeId=\"/citizen\">\n      <MatchView router={{...}} match={{id:\"/citiz...\", ...}}>\n        <SafeFragment>\n          <SafeFragment fallback={null}>\n            <CatchBoundary getResetKey={function getResetKey} errorComponent={function AppErrorComponent} ...>\n              <SafeFragment fallback={function fallback}>\n                <MatchInnerImpl match={{id:\"/citiz...\", ...}}>\n                  <Lazy>\n                    <CitizenPage>\n                      <div className=\"min-h-dvh ...\">\n                        <SiteHeader>\n                        <main className=\"mx-auto gr...\">\n                          <div>\n                            <p>\n                            <h1>\n                            <p>\n                            <div>\n                            <div className=\"mt-6 round...\">\n                              <RadarNowcast>\n                              <div className=\"mt-3 flex ...\">\n                                <input\n                                  type=\"range\"\n                                  min={0}\n                                  max={120}\n                                  value={0}\n                                  onChange={function onChange}\n                                  className=\"h-11 min-w-0 flex-1 accent-accent\"\n                                  aria-label=\"Forecast minute\"\n-                                 style={{caret-color:\"transparent\"}}\n                                >\n                                ...\n                          ...\n"
+      ],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/citizen-smoke.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Nimbus",
+      "hasCanvas": true,
+      "bodyTextLen": 596,
+      "bodyTextHash": "17527ccbe1552aa77a87dee507a89d260ad6b9910133d3baba796fd64cd2f267",
+      "bodyTextPrefix": "Nimbus Launch console THE CITIZEN EXPERIENCE Only if you are in ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/citizen-smoke-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/citizen-smoke.json"
+}

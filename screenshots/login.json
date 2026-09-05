@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/login",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Nimbus",
+      "hasCanvas": false,
+      "bodyTextLen": 311,
+      "bodyTextHash": "baa01dc119677e215aa4910305f76288f74ce4b9da61ba1b463e17d4c9c9d6a9",
+      "bodyTextPrefix": "Nimbus AI NOWCASTING · TEAM CLOUDNINE Overview Live Map Citizen ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/login.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Nimbus",
+      "hasCanvas": false,
+      "bodyTextLen": 211,
+      "bodyTextHash": "74dc57da048b53910fbd7beb55224aa7b37e8002a4e71204584e2f4655429e3f",
+      "bodyTextPrefix": "Nimbus Login NIMBUS ACCESS Sign in Prototype session is stored o",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/login-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/login.json"
+}

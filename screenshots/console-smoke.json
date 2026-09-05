@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/console",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Nimbus",
+      "hasCanvas": true,
+      "bodyTextLen": 774,
+      "bodyTextHash": "e0ecdfd3a32ec8c61273d009e4cb9cfca434271ff9a25372caee99d649117c0a",
+      "bodyTextPrefix": "Nimbus /CLOUDNINE Problem Solution Architecture Impact Team Citi",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/console-smoke.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Nimbus",
+      "hasCanvas": true,
+      "bodyTextLen": 713,
+      "bodyTextHash": "9bf0af2680899802852a1bcb225aa7124ed5b99efccb0f7fbc95c9002230aa91",
+      "bodyTextPrefix": "Nimbus Launch console AUTHORITY COMMAND · LIVE DEMO Nowcast cons",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/console-smoke-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/console-smoke.json"
+}
